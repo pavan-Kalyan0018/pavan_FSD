@@ -1,0 +1,6 @@
+create database project;
+use project;
+create table employee2(empid int,empname varchar(20),empdept varchar(10));
+insert into employee2 values(123,"pavan","testing");
+insert into employee2 values(456,"suram","devops");
+insert into employee2 values(789,"raju","selenium");
