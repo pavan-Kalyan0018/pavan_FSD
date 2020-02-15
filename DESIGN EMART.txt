@@ -1,0 +1,33 @@
+	DATA FIELDS FOR ENTITY CLASSES
+
+	Micro Services-Buyer,Seller,Admin(Optional)
+
+Each MicroService is a Seperate SpringBoot Application.
+
+		DataBases Tables For Buyer DataBase
+	--------------------------------------------------------------
+ 
+		Tables :
+	       ----------
+	* Buyer DB table
+	* Category
+	* Sub-Category
+	* Items
+	* Purchase History
+	* Discounts
+	* Shopping Cart
+	* Transcations
+
+___________________________________________________________________
+
+	DataBase Tables Relationships
+	------------------------------
+
+	* Category ----> Sub-Category[One-Many]
+	* Buyer DB ----> Purchase History[One-Many]
+	* Buyer DB ----> Purchase History[One-Many]
+
+	Note :  Consider a relationship we must maintain a unidirectional.
+
+	Total : SEVEN(7) ENTITY CLASSES
+	--------------------------------
